@@ -16,16 +16,16 @@
 
 # Variables values that will be used in init script to create resources for XC3 infrastructure
 env="dev"
-namespace="example"
-project="example"
+namespace="teamofg"
+project="teamofg"
 region="ap-southeast-2"
 allow_traffic="0.0.0.0/0"
 domain="" #  [Optional] - If you want to use your own domain then set this variable.
-account_id="123456789012"
+account_id="208662306814"
 hosted_zone_id="Z053166920YP1STI0EK5X"
-owner_email="example@example.co"
-creator_email="example@example.co"
-ses_email_address="example@example.co"
-bucket_name="terraform-state-example"
+owner_email="tricksterbirek@gmail.com"
+creator_email="tricksterbirek@gmail.com"
+ses_email_address="tricksterbirek@gmail.com"
+bucket_name="teamgkobhado"
 
 

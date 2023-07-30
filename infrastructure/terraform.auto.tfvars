@@ -12,10 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-namespace      = "example"
+namespace      = "teamofg"
 env            = "dev"
 region         = "ap-southeast-2"
-account_id     = "123456789012"
+account_id     = "208662306814"
 vpc_cidr_block = "10.0.0.0/16"
 public_subnet_cidr_block = {
   "ap-southeast-2a" = "10.0.0.0/24"
@@ -29,16 +29,16 @@ private_subnet_cidr_block = {
 }
 # private_subnet_cidr_block  = "10.0.100.0/24"
 allow_traffic              = ["0.0.0.0/0"] // Use your own network CIDR
-ses_email_address          = "example@example.co"
-creator_email              = "example@example.co"
-owner_email                = "example@example.co"
+ses_email_address          = "tricksterbirek@gmail.com"
+creator_email              = "tricksterbirek@gmail.com"
+owner_email                = "tricksterbirek@gmail.com"
 instance_type              = "t2.micro"
 total_account_cost_lambda  = "total_account_cost"
 total_account_cost_cronjob = "cron(0 0 1,15 * ? *)"     // flexible can be set according to need
 prometheus_layer           = "lambda_layers/python.zip" // s3 key for lambda layer
 memory_size                = 128
 timeout                    = 300
-project                    = "example"
+project                    = "teamofg"
 create_kms                 = false
 security_group_ingress = {
   "pushgateway" = {
