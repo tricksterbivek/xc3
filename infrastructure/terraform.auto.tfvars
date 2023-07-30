@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-namespace      = "teamofg"
+namespace      = "teamgxc"
 env            = "dev"
 region         = "ap-southeast-2"
 account_id     = "208662306814"
@@ -38,7 +38,7 @@ total_account_cost_cronjob = "cron(0 0 1,15 * ? *)"     // flexible can be set a
 prometheus_layer           = "lambda_layers/python.zip" // s3 key for lambda layer
 memory_size                = 128
 timeout                    = 300
-project                    = "teamofg"
+project                    = "teamgxc"
 create_kms                 = false
 security_group_ingress = {
   "pushgateway" = {

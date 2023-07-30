@@ -16,8 +16,8 @@
 
 # Variables values that will be used in init script to create resources for XC3 infrastructure
 env="dev"
-namespace="teamofg"
-project="teamofg"
+namespace="teamgxc"
+project="teamgxc"
 region="ap-southeast-2"
 allow_traffic="0.0.0.0/0"
 domain="" #  [Optional] - If you want to use your own domain then set this variable.
@@ -26,6 +26,6 @@ hosted_zone_id="Z053166920YP1STI0EK5X"
 owner_email="tricksterbirek@gmail.com"
 creator_email="tricksterbirek@gmail.com"
 ses_email_address="tricksterbirek@gmail.com"
-bucket_name="teamgkobhado"
+bucket_name="teamgxcbucket"
 
 

@@ -91,5 +91,10 @@ resource "aws_route53_record" "xc3_alias" {
     zone_id                = aws_lb.this[0].zone_id
     evaluate_target_health = true
   }
-
+  
 }
+output "load_balancer_dns_name" {
+  value       = var.env == "prod" ? aws_lb.this[0].dns_name : "No Load Balancer Created"
+  description = "The DNS name of the load balancer. 'No Load Balancer Created' if not in prod environment."
+}
+
